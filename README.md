@@ -19,16 +19,18 @@ Terra-Alert is an AI-powered landslide prediction system that analyzes environme
 - Machine Learning (Random Forest, XGBoost)
 
 ## 📂 Project Structure
+
 ```
-Terra-Alert/
+terra-alert/
 │
-├── data/                # Dataset used for training
-├── models/              # Trained ML models
-├── app.py               # Streamlit application
-├── preprocessing.py     # Data preprocessing
-├── train_model.py       # Model training script
-├── requirements.txt     # Project dependencies
-└── README.md
+├── data/                # Dataset used for training and testing
+├── models/              # Saved machine learning models
+├── scripts/             # Data preprocessing and model training scripts
+│
+├── streamlit_app.py     # Streamlit web application
+├── .gitignore           # Git ignored files configuration
+├── LICENSE              # Project license
+└── README.md            # Project documentation
 ```
 
 ## ⚙️ Installation
@@ -50,7 +52,7 @@ pip install -r requirements.txt
 
 Run the application
 ```bash
-streamlit run app.py
+streamlit run streamlit_app.py
 ```
 
 ## 📊 How It Works
