@@ -47,7 +47,7 @@ cd terra-alert
 
 Install dependencies
 ```bash
-pip install -r requirements.txt
+pip install streamlit pandas numpy scikit-learn matplotlib
 ```
 
 Run the application
