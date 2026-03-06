@@ -1,3 +1,4 @@
+# 🌍 Terra-Alert
 **Predict. Prevent. Protect.**
 
 Terra-Alert is an AI-powered landslide prediction system that analyzes environmental factors to estimate the risk of landslides. The system uses machine learning models to help identify vulnerable regions and support early warning systems for disaster management.
